@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "target": "ES5",
-    "lib": ["DOM","DOM.Iterable","ESNext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -16,8 +15,6 @@
     "experimentalDecorators": true,
     "noEmit": true,
     "jsx": "react",
-    "declaration": false,
-    "declarationDir": "../es"
   },
   "include": ["src"]
 }
