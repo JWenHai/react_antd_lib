@@ -16,7 +16,8 @@ export default [{
     external: [
         'react',
         'antd',
-        '@ant-design/icons'
+        '@ant-design/icons',
+        '@types/jest'
     ],
     experimentalCodeSplitting: true,
     plugins: [ 
