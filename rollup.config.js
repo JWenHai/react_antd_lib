@@ -5,7 +5,6 @@ import dts from "rollup-plugin-dts";
 import babel from 'rollup-plugin-babel';
 import postcss from 'rollup-plugin-postcss';
 import clear from 'rollup-plugin-clear';
-import flow from 'rollup-plugin-flow';
 
 export default [{
     input: 'src/main.ts',
@@ -31,7 +30,6 @@ export default [{
             targets: ['es'],
             watch: true,
         }),
-        flow(),
         commonjs({
             include: ["node_modules/**"]
         })
